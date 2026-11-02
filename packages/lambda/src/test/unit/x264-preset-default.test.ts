@@ -24,6 +24,7 @@ const makeStartPayload = ({
 		composition: 'test-composition',
 		framesPerLambda: null,
 		concurrency: null,
+		chunks: null,
 		inputProps: {type: 'payload', payload: '{}'},
 		codec,
 		audioCodec: null,

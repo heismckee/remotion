@@ -137,6 +137,7 @@ export type ServerlessStartPayload = {
 	composition: string;
 	framesPerLambda: number | null;
 	concurrency: number | null;
+	chunks: [number, number][] | null;
 	inputProps: SerializedInputProps;
 	codec: ServerlessCodec | null;
 	audioCodec: AudioCodec | null;
@@ -205,6 +206,7 @@ export type ServerlessPayloads = {
 		composition: string;
 		framesPerFunction: number | null;
 		concurrency: number | null;
+		chunks: [number, number][] | null;
 		bucketName: string;
 		inputProps: SerializedInputProps;
 		renderId: string;
