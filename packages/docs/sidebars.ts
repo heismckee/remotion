@@ -1859,7 +1859,7 @@ const sidebars: SidebarsConfig = {
 				id: 'accessibility',
 			},
 			collapsed: true,
-			items: ['accessibility/dev', 'accessibility/pro'],
+			items: ['accessibility/dev'],
 		},
 
 		{
